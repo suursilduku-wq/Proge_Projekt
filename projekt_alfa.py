@@ -2,7 +2,6 @@
 Projekt:  Tudengi kulude analüüsija (alfaversioon)
 Autorid:  Uku Suursild, Henry Martti Niin
 
-
 Kirjeldus:
     Programm loeb Coop Panga internetipangast alla laaditud
     CSV-väljavõtte, jagab kulud
