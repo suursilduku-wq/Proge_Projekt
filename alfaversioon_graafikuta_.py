@@ -1,7 +1,6 @@
 """
 Projekt:  Tudengi kulude analüüsija (alfaversioon)
 Autorid:  Uku [perenimi], [paarilise nimi]
-Kursus:   Programmeerimine, sügis 2026
 
 Kirjeldus:
     Programm loeb Coop Panga internetipangast alla laaditud
@@ -30,10 +29,7 @@ from datetime import datetime
 
 # Märksõnad, mille järgi tehing kategooriasse pannakse.
 # Võti = märksõna saaja nimes (väikeste tähtedega),
-# väärtus = kategooria.
-# NB! Järjekord on oluline: kontrollitakse ülevalt alla ja esimene sobiv
-# märksõna võidab. Seepärast on "apteek" enne "konsum" ja "rimi"
-# (muidu läheks "UJULA KONSUMI APTEEK" toidu alla).
+
 MARKSONAD = {
     "apteek": "Tervis",
     "apte": "Tervis",
@@ -76,8 +72,6 @@ MARKSONAD = {
     "rahasahtlisse": "Säästmine",
 }
 
-# Kategooriad, mis ei ole päris kulutused (raha liigub sinu enda
-# säästudesse või investeeringutesse). Neid kulude tabelis ei näidata.
 MITTE_KULUD = {"Säästmine"}
 
 KUUPAEVA_VORMING = "%d.%m.%Y"
