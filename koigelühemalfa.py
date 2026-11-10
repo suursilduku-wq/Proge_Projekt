@@ -8,9 +8,7 @@ Kirjeldus:
 
 Kasutatud allikad:
     - Pythoni csv-moodul: https://docs.python.org/3/library/csv.html
-    - Tehisaru Claude (Anthropic): aitas koostada programmi struktuuri ja
-      funktsioonid loe_fail ning leia_kaupmees. Märksõnad ja kategooriad
-      valisime ise oma tehingute põhjal; koodi testisime ise.
+    - Tehisaru Claude (Anthropic): aitas kaasa programmi koostamisel ja uute käskude õppimisel.
 
 Sisend:
     Coop Panga väljavõte CSV-failina (Konto väljavõte → eksport CSV).
