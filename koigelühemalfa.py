@@ -1,16 +1,16 @@
 """
 Projekt:  Tudengi kulude analüüsija (alfaversioon)
-Autorid:  Uku [perenimi], [paarilise nimi]
-Kursus:   Programmeerimine, sügis 2026
+Autorid:  Uku Suursild, Henry Martti Niin
 
 Kirjeldus:
     Programm loeb Coop Panga CSV-väljavõtte, jagab kulud kategooriatesse
-    ja prindib need tabelina. Beetaversioonis lisanduvad menüü, graafik,
-    kulude märgendamine, korduvad kulud ja raha lõppemise ennustus.
+    ja prindib need tabelina.
 
 Kasutatud allikad:
     - Pythoni csv-moodul: https://docs.python.org/3/library/csv.html
-    - Koodi kirjutamisel kasutati tehisintellekti Claude (Anthropic) abi.
+    - Tehisaru Claude (Anthropic): aitas koostada programmi struktuuri ja
+      funktsioonid loe_fail ning leia_kaupmees. Märksõnad ja kategooriad
+      valisime ise oma tehingute põhjal; koodi testisime ise.
 
 Sisend:
     Coop Panga väljavõte CSV-failina (Konto väljavõte → eksport CSV).
